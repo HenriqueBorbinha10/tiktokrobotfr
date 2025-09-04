@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIKTOK ROBOT</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 400px;
+        margin: 30px auto;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        position: relative;
+    }
+    h1, h2, h3 {
+        margin: 10px 0;
+    }
+    .input-group {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .input-group label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    button {
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .green {
+        background-color: #00cc1a;
+        font-weight: bold;
+        color: white;
+        padding: 12px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .red {
+        background-color: #FF0000;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto;
+        width: auto;
+    }
+    .back-btn {
+        display: flex;
+        align-items: center;
+        background-color: #4A90E2;
+        color: white;
+        font-weight: bold;
+        padding: 8px 14px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        align-self: flex-start;
+    }
+    .back-btn img {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        filter: invert(1);
+    }
+    .hidden { display: none; }
+    p.justify { text-align: justify; }
+    .tutorial-box {
+        background-color: #1c1b2f;
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .tutorial-box h4 {
+        margin-top: 0;
+        color: #FFD700;
+        text-align: left;
+    }
+    .tutorial-box p {
+        text-align: justify;
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+
+<!-- STEP 1 -->
+<div class="container" id="step1">
+    <img src="/imagens/logo.png" alt="TikTok Logo" width="70">
+    <h2>TIKTOK ROBOT</h2>
+    <h3>WELCOME TO THE PATH TO WEALTH</h3>
+    <p>Enter your details to get started</p>
+
+    <div class="input-group">
+        <label>Your name:</label>
+        <input type="text" placeholder="Ex: Michael Johnson" id="nome">
+    </div>
+    <div class="input-group">
+        <label>Your e-mail:</label>
+        <input type="text" placeholder="Ex: michaeljohnson@email.com" id="e-mail">
+    </div>
+
+    <button class="green" onclick="nextStep(2)">CONTINUE</button>
+</div>
+
+<!-- STEP 2 -->
+<div class="container hidden" id="step2">
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep(1)">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar"> BACK
+        </button>
+    </div>
+
+    <h2>💸 TIKTOK ROBOT</h2>
+
+    <!-- NOVA IMAGEM -->
+    <img src="/imagens/front.png" alt="Slogan Milionário" style="width:100%; max-width:450px; margin:20px auto; display:block; border-radius: 10px;">
+
+    <button class="green" onclick="nextStep(3)">CLICK HERE TO ACCESS YOUR PURCHASE</button>
+
+    <!-- IMAGEM ORIGINAL REPOSICIONADA -->
+    <img src="/imagens/24k.png" alt="24k seguidores" style="width:100%; max-width:450px; margin:20px auto; display:block; border-radius: 10px;">
+
+    <h3><strong>RESULTS ACCELERATOR</strong></h3>
+    <p class="justify">
+        🚀 Want to grow your results quickly, organically, and strategically? We present <strong>24K FOLLOWERS PROJECT</strong>, a proven method that helps you gain 24,000 followers in seven days and accelerates your video viralization process.
+    </p>
+
+    <button class="red" onclick="window.location.href='https://go.perfectpay.com.br/PPU38CPTB3P'">ACCESS THE ACCELERATOR FOR $27</button>
+
+    <img src="/imagens/suporte.png" style="width:100%; max-width:450px; margin:20px auto; display:block;">
+
+    <h3>PERSONALIZED VIP SUPPORT</h3>
+    <p class="justify">🟢 And for you to have even more results, I want to offer my help in a personalized way, a <strong>VIP SUPPORT</strong> available 24h to answer questions and guide you step by step. Ideal for those who are just starting out in the digital world..</p>
+
+    <button class="red" onclick="window.location.href='https://go.perfectpay.com.br/PPU38CPTB3S'">ACCESS VIP SUPPORT FOR $37</button>
+
+    <img src="/imagens/viral.png" alt="Viral Editing" style="width:100%; max-width:450px; margin:20px auto; display:block; border-radius: 10px;">
+
+    <h3><strong>VIRAL EDITING</strong></h3>
+    <p class="justify">
+        🎬 Anyone can post videos, but turning ordinary videos into engagement and money machines is for those who know the way. The truth is that 99% of creators are just wasting their time, publishing content that no one watches. If you want to be among the 1% that really goes viral and makes a profit, you need strategy, accurate editing, and the right step-by-step. Within <strong>VIRAL EDITING</strong>, I show you exactly how I edit my videos straight from my phone to create powerful cuts, with high viralization potential. It's the same method I use daily to generate views, attract followers, and turn content into income. If you want to play this game to win, click now on the button below and get immediate access to my secret viral editing technique.
+    </p>
+
+    <button class="red" onclick="window.location.href='https://go.perfectpay.com.br/PPU38CPTB3U'">ACCESS THE VIRAL EDITING FOR $27</button>
+</div>
+
+<!-- STEP 3 -->
+<div class="container hidden" id="step3">
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep(2)">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar"> BACK
+        </button>
+    </div>
+
+    <h2>CONGRATULATIONS ON YOUR PURCHASE!</h2>
+    <button class="green" onclick="window.open('https://www.trucdesel.site', '_blank')">ACCESS THE ROBOT</button>
+    <button class="green" onclick="nextStep('3.1')">ACCESS THE CLASS</button>
+    <button class="green" onclick="nextStep('3.2')">ACCESS THE BONUSES</button>
+    <button class="green" onclick="window.open('https://forms.gle/CTv1PXspvKbPoboy7', '_blank')">SUPPORT/QUESTIONS/REFUND</button>
+</div>
+
+<!-- STEP 3.0 -->
+<div class="container hidden" id="step3.0">
+    <!-- Botão de voltar -->
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep(3)">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar" width="16" height="16">
+            BACK
+        </button>
+    </div>
+
+    <!-- Caixa de instruções -->
+    <div class="tutorial-box">
+        <h4>ENTER YOUR TIKTOK</h4>
+        <p>Now just enter your TikTok username, which you can find in the profile of the official application and click on the green button below to start activation.</p>
+    </div>
+
+    <!-- Campo de entrada do TikTok -->
+    <div class="input-group">
+        <label for="tiktokid">Your TikTok:</label>
+        <input type="text" id="tiktokid" placeholder="Ex: michaeljohnsontiktok">
+    </div>
+
+    <!-- NOVO INPUT: Seleção do tipo de vídeo -->
+    <div class="input-group">
+        <label for="videoType">Select or type of video:</label>
+        <select id="videoType">
+            <option value="motivacional">Motivacional</option>
+            <option value="comedia">Comédia</option>
+            <option value="curiosidades">Curiosidades</option>
+            <option value="reacoes">Reações</option>
+            <option value="respostas">Respostas aos comentários</option>
+            <option value="avaliacoes">Avaliações</option>
+            <option value="tendencias">Tendências</option>
+        </select>
+    </div>
+
+    <!-- NOVO INPUT: Seleção da quantidade de vídeos por dia -->
+    <div class="input-group">
+        <label for="videoCount">Quantos vídeos post by day:</label>
+        <select id="videoCount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+
+    <!-- Botão de ativação -->
+    <button class="green" onclick="validateTikTok()">START ACTIVATION</button>
+</div>
+    
+    <!-- STEP 3.0.1 -->
+<div class="container hidden" id="step3.0.1">
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep('3.0')">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar"> BACK
+        </button>
+    </div>
+
+    <div class="tutorial-box">
+        <h4>ACTIVATION IN PROGRESS</h4>
+        <p>✅ Your TikTok username has been successfully saved. Now, just open the app and start posting some videos to activate your robot. The process can take up to 7 days, and after that, you’ll begin receiving payments automatically on your phone. To speed up your results, make sure to follow the step-by-step instructions from the classes and publish the three bonus videos provided here in the app.</p>
+    </div>
+</div>
+
+<!-- STEP 3.1 -->
+<div class="container hidden" id="step3.1">
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep(3)">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar"> BACK
+        </button>
+    </div>
+
+    <div class="tutorial-box">
+        <h4>QUICK TUTORIAL:</h4>ACCESS THE LINKS BELOW TO START YOUR CUTTING PROCESS, WATCH THE 3 STEP-BY-STEP CLASSES THAT OUR TEAM HAS PREPARED, IT IS IMPORTANT THAT YOU WATCH THE CLASSES IN ORDER.  ALL THE EXPERTS WHO RECORDED THE CLASSES WORK IN THE COMPANY THAT MOST VIRALIZES VIDEOS IN THE WORLD, SO IT IS EXTREMELY IMPORTANT THAT YOU FOLLOW THE STEP BY STEP AND WRITE EVERYTHING DOWN SO THAT YOU GET YOUR RESULTS IN THE FIRST WEEK, LET'S GO.
+        <p></p>
+    </div>
+
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1gXatZW_Ob1ETPCzUhlrHSSo3SzWsVGaA/view?usp=sharing', '_blank')">CLASS 01</button>
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1eDZaXGEgzA2mlYM5CaZ8m3rjDyBuOt9H/view?usp=sharing')">CLASS 02</button>
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1AF_HsHNiqUaD4CRYSB9eMh6dSD0w4FXv/view?usp=sharing', '_blank')">CLASS 03</button>
+</div>
+
+<!-- STEP 3.2 -->
+<div class="container hidden" id="step3.2">
+    <div style="display: flex;">
+        <button class="back-btn" onclick="nextStep(3)">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Voltar"> BACK
+        </button>
+    </div>
+
+    <div class="tutorial-box">
+        <h4>QUICK TUTORIAL:</h4>
+        <p>ACCESS THE LINKS BELOW TO ACCESS THE VIDEOS THAT BROUGHT ME MORE THAN 60 THOUSAND DOLLARS, JUST DOWNLOAD THEM TO YOUR MOBILE AND PUBLISH THEM ON YOUR TIK TOK OR INSTAGRAM, THEY ARE READY-MADE VIDEOS, ALREADY VALIDATED, JUST FOLLOW THE STEP BY STEP TAUGHT IN CLASS 01, CLASS 02 AND CLASS 03 AND PUBLISH THEM.</p>
+    </div>
+
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1MwtVgaBNp2gg-uxzgd8VpXGNj5OqC4Sg/view?usp=sharing', '_blank')">VÍDEO 01</button>
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1zomHUurcQeSl4geq3qr6IRxgRWaRPTx5/view?usp=sharing', '_blank')">VÍDEO 02</button>
+    <button class="green" onclick="window.open('https://drive.google.com/file/d/1XUcQBZFPgajI-kv-R87mWBOJhHl2ktxa/view?usp=sharing', '_blank')">VÍDEO 03</button>
+</div>
+
+<script>
+function nextStep(step) {
+    // Validação ANTES de esconder as telas
+    if (step == 2) {
+        const nome = document.getElementById('nome').value.trim();
+        const email = document.getElementById('e-mail').value.trim();
+        if (!nome || !email) {
+            alert("Please fill in the fields.");
+            return; // Evita seguir se os campos estiverem vazios
+        }
+    }
+
+    // Agora sim: oculta todas as etapas
+    const steps = ['step1', 'step2', 'step3', 'step3.0', 'step3.0.1', 'step3.1', 'step3.2'];
+    steps.forEach(id => document.getElementById(id).classList.add('hidden'));
+
+    // Mostra a etapa correta
+    document.getElementById('step' + step).classList.remove('hidden');
+}
+    function validateTikTok() {
+    const tiktok = document.getElementById('tiktokid').value.trim();
+    if (!tiktok) {
+        alert("Please fill in the fields.");
+        return;
+    }
+    nextStep('3.0.1');
+}
+</script>
+
+</body>
+</html>
